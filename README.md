@@ -9,10 +9,10 @@ sudo update-alternatives --config java
 * jps //To list all java processes
 
 * jstack -l  97008<pid>  >thread.dump
-
+```
 
 ```
-Found one Java-level deadlock:
+Found one java level deadlock
 =============================
 "Thread-1":
   waiting to lock monitor 0x000000000483a808 (object 0x00000000d614dbe8, a logic.Account1),
@@ -37,7 +37,4 @@ Java stack information for the threads listed above:
 	at java.lang.Thread.run(Thread.java:748)
 
 Found 1 deadlock.
-
-
-```
 ```
